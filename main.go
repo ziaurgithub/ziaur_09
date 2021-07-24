@@ -2,25 +2,13 @@ package main
 import "fmt"
 func main(){
 
+fmt.Println("enter your name & age: ")
+var name string
+var age int
+fmt.Scanf("%s %d", &name, &age)
+fmt.Printf("your name %s & age is %d", name, age) 
 
-//var isfound bool
-//var name string
-//var age int
-//var result float32
 
-/*fmt.Println(name)
-fmt.Println(age)
-fmt.Println(result)
-fmt.Println(isfound)
-fmt.Println(true && true)
-fmt.Println(true && false)
-fmt.Println(true || true)
-fmt.Println(true || false)
-fmt.Println(!true)
-*/
-var chr rune
-chr = 'a'
-fmt.Println(chr)
-fmt.Printf("%c", chr)
+
 }
 
